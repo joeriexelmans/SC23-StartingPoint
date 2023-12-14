@@ -148,6 +148,6 @@ def run_scenarios(statechart_class, SCENARIOS, INITIAL, IDEMPOTENT, verbose=Fals
             passed = False
 
     if passed:
-        print("\nAll tests passed.")
+        print("All scenarios passed.")
     else:
-        print("\nSome tests failed.")
+        print("Some scenarios failed.")

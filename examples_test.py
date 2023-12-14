@@ -56,8 +56,8 @@ SCENARIOS_E = [
 ]
 
 if __name__ == "__main__":
-    run_scenarios(a.A, SCENARIOS_A, [], [])
-    run_scenarios(b.B, SCENARIOS_B, [], [])
-    run_scenarios(c.C, SCENARIOS_C, [], [])
-    run_scenarios(d.D, SCENARIOS_D, [], [])
-    run_scenarios(e.E, SCENARIOS_E, [], [])
+    run_scenarios(a.A, SCENARIOS_A, [], [], verbose=True)
+    run_scenarios(b.B, SCENARIOS_B, [], [], verbose=True)
+    run_scenarios(c.C, SCENARIOS_C, [], [], verbose=True)
+    run_scenarios(d.D, SCENARIOS_D, [], [], verbose=True)
+    run_scenarios(e.E, SCENARIOS_E, [], [], verbose=True)
